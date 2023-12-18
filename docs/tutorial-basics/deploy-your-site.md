@@ -21,9 +21,12 @@ The static files are generated in the `build` folder.
 ## Deploy your site
 
 Test your production build locally:
+这里需要设置环境变量
+`DEPLOYMENT_BRANCH=master`
 
 ```bash
 npm run serve
+cmd /C 'set "GIT_USER=zentia" && yarn deploy'
 ```
 
 The `build` folder is now served at [http://localhost:3000/](http://localhost:3000/).
