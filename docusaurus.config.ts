@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'zentia',
-  tagline: 'Dinosaurs are cool',
+  tagline: '君子博学而日参省乎己，则知明而行无过矣。',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -68,7 +68,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'document',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
@@ -85,7 +85,7 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: 'document',
               to: '/docs/intro',
             },
           ],
@@ -116,7 +116,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/zentia/newblog',
             },
           ],
         },
